@@ -1,6 +1,6 @@
 {
   "name": "codeworks-tp-highest-word-count",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Codeworks toy problem to train students",
   "main": "index.js",
   "scripts": {

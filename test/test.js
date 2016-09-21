@@ -10,8 +10,8 @@ describe('highestWordCount', function () {
     highestWordCount('oh yes, no wait... yes!').should.eql(['yes']);
   });
 
-  it('should return ["I", "see"] when passed "I see, mmm... I see"', function () {
-    highestWordCount('I see, mmm... I see?').should.eql(['I', 'see']);
+  it('should return ["I", "see"] when passed "I see, mmm... I see, 2 and 2."', function () {
+    highestWordCount('I see, mmm... I see, 2 and 2.').should.eql(['I', 'see']);
   });
 
   it('should return an empty array when passed an empty string', function () {
