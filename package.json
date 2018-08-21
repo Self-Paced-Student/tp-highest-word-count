@@ -1,11 +1,11 @@
 {
   "name": "codeworks-tp-highest-word-count",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Codeworks toy problem to train students",
   "main": "index.js",
   "scripts": {
-    "precommit": "gulp lint && npm test",
-    "pre-commit": "gulp lint"
+    "precommit": "gulp lint",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
