@@ -18,7 +18,7 @@ describe('highestWordCount', function () {
     highestWordCount('').should.eql([]);
   });
 
-  it('should throw an error when is not passed a string', function () {
+  it('should throw an error when not passed a string', function () {
     [1, true, [], {}, function () {}, null, undefined].forEach(function (el) {
       (function () {
         highestWordCount(el);
