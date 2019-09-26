@@ -1,6 +1,6 @@
 {
   "name": "codeworks-tp-highest-word-count",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A Codeworks toy problem to train students",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "codeworksbcn/tp-highest-word-count"
+    "url": "codeworks/tp-highest-word-count"
   },
   "author": "Codeworks",
   "license": "UNLICENSED",
