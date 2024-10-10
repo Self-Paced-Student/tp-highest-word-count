@@ -13,7 +13,21 @@
 var _ = require('lodash');
 
 function highestWordCount (str) {
-
+    if (typeof str !== 'string') {
+        throw new Error();
+    } 
+    if (!str) return [];
+    const freqObj = _.countBy(
+        str.split(/\s+/)
+            .map(word => word.replace(/[^a-zA-Z]/g, ''))
+        )
+    const freqArray = Object.entries(freqObj);
+    const maxCount = _.max(freqArray.map(([, count]) => count));
+    return freqArray
+        .filter(([, count]) => count === maxCount)
+        .map(([word]) => word)
+        .filter(word => word !== '');
 }
+
 
 module.exports = highestWordCount;
